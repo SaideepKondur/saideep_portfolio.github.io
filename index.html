@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="flex items-center justify-between">
+                 <div class="left flex items-center"> 
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#skills">Skills</a>
+                    </div>
+                 </div>
+                 <div class="right"> 
+                 <button class="btn btn-primary"><a href="#contact">Contact</a></button>
+                 </div>
+            </nav>
+            <div class="mypic flex items-center justify-between">
+                <div class="left flex-1 flex justify-center">
+                    <img src="./images/profile pic.jpg" alt="">
+                </div>
+                <div class="right flex-1">
+                    <h6>Saideep Kondur</h6>
+                    <h1>I'm a Computer Science <span> Graduate Student</span></h1>
+                    <p>Hi, I'm SAIDEEP !
+                        Currently, I am pursuing Master's Degree in Computer Science from Clemson University, United States. 
+                        I always enjoy applying Advanced studies and research experience in Machine Learning and Deep Learning to dynamic roles in industry.  
+                        Originally, I am from Navi Mumbai, India. 
+                        I also like to build interactive websites through the interaction of user data and deep learning models.</p>
+                    <div>
+                        <button class="btn btn-secondary"> 
+                        <a href="https://drive.google.com/file/d/1BC1p-a7cp-wzMzOsExBZ3ih2BXnUKGdV/view?usp=sharing" target="_blank">DOWNLOAD RESUME</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="experience" id="experience">
+        <div class="container flex items-center">
+            <div class="flex-1">
+                <h1>Experience</h1>
+                <h3>Speed Detection For Traffic Safety <span> | 2021</span></h3>
+                <h4>Stack :| Machine Learning and Image Processing</h4>
+                <p> Detecting speed of the over speeding vehicles.
+                    Implemented YOLO object detection algorithm and image processing to detect the ongoing vehicles, Euclidean Distance
+                    formula to track and provide ID to each individual vehicle and calculated the approximate speed of the vehicle.
+                    The detected speed and vehicle ID are stored in a database and the values are fetched to a website which can be accessed by
+                    the admin.
+                </p>
+            </div>
+            <div class="flex-1">
+                <img class="speed-detection-image" src="./images/speed detection for traffic safety.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="container flex items-center">
+            <div class="flex-1">
+                <h3>Portfolio Website <span> | 2022</span></h3>
+                <h4>Software Development (Ongoing)</h4>
+                <p> Developing a portfolio website which would provide an overview of all the projects, skills, education and research activities
+                    along with their links and videos.
+                    Also, developing a game which would be accessible through the website.
+                </p>
+            </div>
+            <div class="flex-1">
+                <img class="website-portfolio" src="./images/website portfolio.png" alt="">
+            </div>
+        </div>
+
+        <div class="container flex items-center">
+            <div class="flex-1">
+                <h3>IBM Project CodeNet <span> | 2022</span></h3>
+                <h4>Data Science Application (Ongoing)</h4>
+                <p> Developing a next word predictor. 
+                    Creating a next word predictor/generator for programming languages (python) using LSTM and / or Transformer Neural
+                    Networks.
+                    Our goal is to create an algorithm which accepts a string of arbitrary length including line breaks and predicts the next possible
+                    word or words.
+                </p>
+            </div>
+            <div class="flex-1">
+                <img class="ibm-project" src="./images/ibm-project.png" alt="">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h1>Skills</h1>
+        <p>Python Data Structures</p>
+        <a href="https://drive.google.com/file/d/1Uzc-0Xhm4iEZFZIKNH1w-v_1T7zGhy9E/view?usp=sharing" target="_blank">View Certificate</a><br>
+        <p>Machine Learning with Python</p>
+        <a href="https://drive.google.com/file/d/1zumt48JbN-wy2FQlnJygL6hE0rOV5cZl/view?usp=sharing" target="_blank">View Certificate</a><br>
+        <p>Mathematics for Machine Learning</p>
+        <a href="https://drive.google.com/file/d/1XxKSgRdhcFWg71ovlfZrIwO9hg1BDwmp/view?usp=sharing" target="_blank">View Certificate</a><br>
+        <p>Web Design using HTML CSS and JavaScript</p>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1>Contact</h1>
+            <p>You plan to contact me .... ?</p>
+            <p>I would love to hear from you. Here is how you can reach out to me ...</p>
+        </div>
+        <div class="card-wrapper">
+            <div class="card">
+                <img src="./images/phone.png" alt="">
+                <h2>Email At</h2>
+                <h6>saideek@g.clemson.edu</h6>
+            </div>
+        </div>
+
+        <form action="">
+            <div class="input-wrap">
+                <input type="text" id="textfield1" placeholder="Your Name *">
+                <input type="email" id="textfield2" placeholder="Your Email *">
+            </div>
+            <div class="input-wrap-2">
+                <input type="text" id="textfield3" placeholder="Your Subject...">
+                <textarea name="" id="textfield4" cols="30" rows="10" placeholder="Your Message...."></textarea>
+            </div>
+            <div class="btn-wrapper">
+                <button class="btn btn-primary" onclick="ClearFields();">Send Message</button>
+            </div>
+        </form>
+
+    </section>
+    <footer>
+        Copyright © Saideep 2022
+    </footer>
+
+</body>
+<script>
+    function ClearFields() {
+document.getElementById("textfield1").value = "";
+document.getElementById("textfield2").value = "";
+document.getElementById("textfield3").value = "";
+document.getElementById("textfield4").value = "";
+}
+</script>
+</html>

@@ -1,0 +1,202 @@
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+
+}
+html { scroll-behavior: smooth; }
+body{
+    font-family:'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color:var(--primary)
+}
+header nav{
+    padding:2rem 0;
+}
+/* header nav .branding{ */
+    /* margin-right: 3rem; */
+/* } */
+.mypic{
+    padding:3rem 0;
+}
+.mypic .left img{
+    width: 350px;
+}
+.mypic .right{
+    color:var(--pure);
+}
+.mypic .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+.mypic .right h1{
+    font-size: 3.5rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.mypic .right h1 span{
+    color: var(--primary);
+}
+.mypic .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.btn-secondary{
+    margin-left: 2rem;
+    
+}
+.mypic .right {
+    margin-top: -7rem;
+}
+section{
+    padding:6rem 0;
+}
+section.experience .speed-detection-image{
+    height: 300px;
+    margin-top: 4rem;
+}
+section.experience h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+section.experience h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+section.experience p{
+    font-family: 'Lato', sans-serif;
+    color: var(--ternary);
+    line-height: 1.9;
+    margin-bottom: 1rem;
+}
+section.experience .website-portfolio{
+    height: 248px;
+    margin-top: 3rem;
+}
+section.experience .ibm-project{
+    height: 255px;
+    margin-top: 3rem;
+}
+section.skills{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png);
+    color: var(--pure);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
+    padding-bottom: 14rem;
+}
+section.skills h1{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+section.skills p{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0.5rem;
+}
+section.skills a{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+
+}
+section.contact .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+section.contact .card-wrapper .card{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+section.contact .card-wrapper .card img{
+    margin-bottom: 0.5rem;
+}
+section.contact .card-wrapper .card h2{
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+section.contact .card-wrapper .card h6{
+    font-size: 1rem;
+    color: var(--ternary);
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+section.contact .input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+}
+section.contact .input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+section.contact .input-wrap-2 input{
+    margin-bottom: 2rem;
+}
+section.contact input{
+    padding:0.5rem;
+    border: 1px solid var(--light);
+    font-size: 0.8rem;
+}
+section.contact .input-wrap-2 textarea{
+    padding: 0.5rem;
+    border: 1px solid var(--light);
+    font-size: 0.8rem;
+}
+section.contact .input-wrap-2 textarea:focus, section.contact input:focus{
+    outline: none;
+}
+section.contact .btn-wrapper{
+    text-align: center;
+    margin-top: 2rem;
+}
+.btn a{
+    text-decoration: none;
+    color: var(--pure);
+}
+.skills a{
+    text-decoration: none;
+}
+
+footer{
+    padding: 20px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
